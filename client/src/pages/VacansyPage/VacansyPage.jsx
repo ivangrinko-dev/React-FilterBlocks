@@ -22,7 +22,7 @@ function VacansyPage() {
           <h2>{data.salary}</h2>
           <p>{data.workday}</p>
         </div>
-        <div className={SubtleCrypto.city}>
+        <div className={style.city}>
           <div className={style.img}></div>
           <p>{data.city}</p>
         </div>
