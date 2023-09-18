@@ -50,4 +50,33 @@
       font: 400 16px Inter;
     }
   }
+
+  
+}
+
+.par {
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  width: 805px;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  border-radius: 12px;
+  border: 1px solid var(--Grey-200, #EAEBED);
+  background: #FFF;
+
+h1 {
+  color: var(--Black, #232134);
+  font:700 20px Inter;
+  line-height: 20px;
+}
+p {
+  color: var(--Black, #232134);
+  font: 400 20px Inter;
+  margin-left: 40px;
+  
+}
+
 }

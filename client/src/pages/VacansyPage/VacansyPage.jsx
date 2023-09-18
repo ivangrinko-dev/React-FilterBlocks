@@ -27,6 +27,14 @@ function VacansyPage() {
           <p>{data.city}</p>
         </div>
       </div>
+        <div className={style.par}>
+          <h1>Обязанности:</h1>
+          <p>{data.responsibilities}</p>
+          <h1>Требования:</h1>
+          <p>{data.requirements}</p>
+          <h1>Условия:</h1>
+          <p>{data.conditions}</p>
+        </div>
     </div>
   );
 }
